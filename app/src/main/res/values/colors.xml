@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00695C</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+
+    <color name="text_color_white">#FFFFFF</color>
+    <color name="button_text_color">#000000</color>
+    <color name="text_duration_color">#2940C0</color>
+    <color name="text_time_color">#919191</color>
+
+    <color name="backgroundColor">#181518</color>
+    <color name="listItemBackgroundColor">#242124</color>
+    <color name="dividerColor">#1FFFFFFF</color>
+    <color name="list_item_grey">#616161</color>
+    <color name="deleteButtonColor">#9B1414</color>
+
+    <color name="text_title_color">#000000</color>
+
+</resources>

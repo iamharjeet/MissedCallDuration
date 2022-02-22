@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Missed Call Duration</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_list">No Records</string>
+    <string name="dialog_call">Call</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="loglength_dialog_title">Select number of logs</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="request_permissions">Please Grant Permissions to run this App smoothly!</string>
+    <string name="request_permissions_message">Without permissions, this app won\'t work properly.\nPlease grant permissions in app Settings</string>
+
+    <string name="about_string"><![CDATA[\
+
+<center><h1><font color=\'#607d8b\'>Developer :</font> Jeet Inc.</h1></center>
+<center><h1><font color=\'#607d8b\'>Version :</font> 2.0.1</h1></center>
+
+<center><h1><font color=\'#d43146\'>Urgent Notice :</font></h1><h5>Due to recent security changes in Android 9, the permission to read call logs is not granted. So, this app can\'t read the incoming phone numbers. We are continuously trying to fix this problem. Until then, for all devices running Android 9 and above, this app WILL NOT SHOW the phone numbers, and only sequence number 1,2,3... will be shown.</h5></center>
+
+<center><h1><font color=\'#607d8b\'>Overview</font></h1></center>
+
+<center><p>Missed Call Duration is an AD FREE app and will forever remain AD FREE.</p></center>
+
+<center><p>It shows you the duration of your missed calls.</p></center>
+
+<center><p>Do you ever wonder about how long your phone was ringing when you missed a call? Or does someone call you only for a few seconds and then hang up? Then this app might be useful to you.</p></center>
+
+
+
+<center><p>Now you can know who gave you only a missed call OR a long ring duration could mean an urgent call you missed.</p></center>
+
+<center><p>When you get a missed call, this app will keep track of the time and duration and will optionally notify you.</p></center>
+
+<center><p>Thanks for downloading this app. If you like it, rate it on the play store and share it with your friends!</p></center>
+
+<center><h1><font color=\'#607d8b\'>Features</font></h1></center>
+
+<center><p><font color=\'#037942\'>Direct Calling</font></p></center>
+<center><p><font color=\'#037942\'>Notifications</font></p></center>
+<center><p><font color=\'#037942\'>Variable Log Length</font></p></center>
+<center><p><font color=\'#037942\'>Share app with friends</font></p></center>]]></string>
+
+    <string name="developer_name">Jeet Inc.</string>
+    <string name="developer_text">Developer :</string>
+    <string name="email_text">EMail id :</string>
+    <string name="email_id">incjeet@gmail.com</string>
+
+    <string name="urgent_notice_desc">Due to recent security changes in Android 9, the permission to read call logs is not granted. So, this app can\'t read the incoming phone numbers. We are continuously trying to fix this problem. Until then, for all devices running Android 9 and above, this app WILL NOT SHOW the phone numbers, and only sequence number 1,2,3... will be shown.</string>
+    <string name="overview_desc">
+        Missed Call Duration is an AD FREE app and will forever remain AD FREE.\nIt shows you the duration of your missed calls.\nDo you ever wonder about how long your phone was ringing when you missed a call? Or does someone call you only for a few seconds and then hang up? Then this app might be useful to you.\nNow you can know who gave you only a missed call OR a long ring duration could mean an urgent call you missed.\nWhen you get a missed call, this app will keep track of the time and duration and will optionally notify you.\nThanks for downloading this app. If you like it, rate it on the play store and share it with your friends!
+    </string>
+
+    <string name="features_desc">
+        Direct Calling\n\nNotifications\n\nVariable Log Length\n\nShare app with friends
+    </string>
+
+</resources>

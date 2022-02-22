@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contact_dialog_bg"
+    android:minHeight="150dp"
+    android:minWidth="@dimen/dialog_min_width"
+    android:orientation="vertical"
+    android:paddingTop="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dialog_title_padding"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:padding="4dp"
+            android:text="This app will forever be free of advertisements.\n\nIf you want to support us, please check out our other apps on Google Play."
+            android:textColor="@color/text_color_white"
+            android:textSize="@dimen/dialog_row_text"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dialog_title_padding"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:minWidth="100dp"
+            android:padding="4dp"
+            android:text="@string/email_text"
+            android:textColor="@color/text_color_white"
+            android:textSize="@dimen/dialog_row_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="125dp"
+            android:padding="4dp"
+            android:text="@string/email_id"
+            android:textColor="@color/text_color_white"
+            android:textSize="@dimen/dialog_row_text" />
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:minHeight="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/supportDialogNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Later"
+            android:textColor="@color/button_text_color"
+            android:textSize="@dimen/dialog_row_text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="45dp"
+            android:padding="15dp"/>
+
+        <Button
+            android:id="@+id/supportDialogYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sure"
+            android:textColor="@color/button_text_color"
+            android:textSize="@dimen/dialog_row_text"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="10dp"
+            android:padding="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/backgroundColor"
+    tools:context="com.harjeet.missedcallduration.AboutActivity">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/developerTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/about_text"
+                android:text="Developer"
+                android:textColor="#607d8b"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/developerDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:text="Jeet Inc."
+                android:textColor="#ffffff"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/versionTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/about_text"
+                    android:text="Version"
+                    android:textColor="#607d8b"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/versionDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="23dp"
+                    android:layout_gravity="center"
+                    android:text="2.0.2"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/noticeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/about_text"
+                    android:text="*Urgent Notice*"
+                    android:textColor="#C62828"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/noticeDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="@string/urgent_notice_desc"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/overviewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/about_text"
+                    android:text="Overview"
+                    android:textColor="#607d8b"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/overviewDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="@string/overview_desc"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/featuresTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/about_text"
+                    android:text="Features"
+                    android:textColor="#607d8b"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/features1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Notifications"
+                    android:textColor="#9E9D24"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:id="@+id/features2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Direct Calling"
+                    android:textColor="#9E9D24"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:id="@+id/features3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Variable Log Length"
+                    android:textColor="#9E9D24"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:id="@+id/features4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Share app with friends"
+                    android:textColor="#9E9D24"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

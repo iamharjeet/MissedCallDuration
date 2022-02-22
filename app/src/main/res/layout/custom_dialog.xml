@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:minWidth="@dimen/dialog_min_width"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialogText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dialog_title_padding"
+        android:paddingRight="@dimen/dialog_title_padding"
+        android:textSize="@dimen/dialog_title_text"
+        android:textColor="#FFFFFF"/>
+
+
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/call_button_selector"
+        android:text="@string/dialog_call"
+        android:textSize="@dimen/dialog_row_text"
+        android:textColor="@color/text_color_white"/>
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/delete_button_selector"
+        android:text="@string/dialog_delete"
+        android:textSize="@dimen/dialog_row_text"
+        android:textColor="@color/text_color_white"/>
+
+</LinearLayout>
